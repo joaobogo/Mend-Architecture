@@ -24,7 +24,7 @@ const HeaderContainer = styled.header`
   }
 
   a:hover {
-    cursor: pointer;
+    cursor: pointer;;
   }
 
   .ig:hover {

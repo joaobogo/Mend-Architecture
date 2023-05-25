@@ -7,11 +7,11 @@ import pj2 from '../../assets/pj2.png'
 
 const banners = [
   {
-    bgimage: mainphoto1,
+    bgimage: mainphoto2,
     mbimage:pj2
   },
   {
-    bgimage: mainphoto2,
+    bgimage: mainphoto1,
     mbimage:pj2
   },
   {
