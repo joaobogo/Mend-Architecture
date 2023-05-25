@@ -6,9 +6,8 @@ const ProjectContainer = styled.div`
 
   .top {
     display: flex;
-    justify-content: center;
   }
-  
+
   .bottom {
     display: flex;
     justify-content: center;
@@ -32,19 +31,18 @@ const ProjectContainer = styled.div`
     color: black;
   }
 
-  
   @media screen and (max-width: 780px) {
     flex-direction: column;
+    width: 100vw;
 
-    .top{
+    .top {
       flex-direction: column;
+      align-items: center;
     }
 
-    .bottom{
+    .bottom {
       font-size: 22px;
     }
-
-
   }
 
   @media screen and (max-width: 380px) {

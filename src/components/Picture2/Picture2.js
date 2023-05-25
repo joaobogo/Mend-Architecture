@@ -1,12 +1,17 @@
 import React, { useState } from "react";
-import PictureContainer from "./Picture.styles";
+import PictureContainer2 from "./Picture2.styles";
 
-function Picture({ src }) {
+function Picture2({ src }) {
   const [className, setClassname] = useState("dnone");
 
+  if(className === "active") {
+    document.body.classList.add('active-pic')
+  } else {
+    document.body.classList.remove('active-pic')
+  }
   
   return (
-    <PictureContainer>
+    <PictureContainer2>
       <button onClick={() => setClassname("active")}>
         <img className="picture" src={src}></img>
       </button>
@@ -19,8 +24,8 @@ function Picture({ src }) {
           <button className="closebutton" onClick={() => setClassname("dnone")}>X</button>
         </div>
       </div>
-    </PictureContainer>
+    </PictureContainer2>
   );
 }
 
-export default Picture;
+export default Picture2;

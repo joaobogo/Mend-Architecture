@@ -62,7 +62,7 @@ const AboutContainer = styled.div`
     }
 
     img {
-      width: 80%;
+      width: 95%;
       margin-left: 0;
     }
   }
@@ -72,12 +72,12 @@ const AboutContainer = styled.div`
    justify-content: space-evenly;
 
    img{
-    width: 90%;
+    width: 95%;
    }
   }
 
   @media screen and (max-width: 360px) {
-    height: 130vh;
+    height: 140vh;
     img{
     width: 95%;
    }

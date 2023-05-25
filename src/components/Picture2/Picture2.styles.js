@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const PictureContainer = styled.div`
+const PictureContainer2 = styled.div`
   margin: 0;
   padding: 0;
   border: none;
@@ -23,15 +23,12 @@ const PictureContainer = styled.div`
   button {
     border: none;
     background: transparent;
-    padding: 0;
   }
 
   button:hover {
     cursor: pointer;
   }
 
-
-  
   .active .overlay {
     width: 100vw;
     height: 100vh;
@@ -80,7 +77,7 @@ const PictureContainer = styled.div`
     width: 100vw;
 
     .picture{
-      width: 100vw;
+      width: 95vw;
     }
 
     .content{
@@ -96,4 +93,4 @@ const PictureContainer = styled.div`
   }
 `;
 
-export default PictureContainer;
+export default PictureContainer2;

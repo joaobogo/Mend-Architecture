@@ -25,16 +25,37 @@ const AllProjectsContainer = styled.div`
     align-items: center;
     width: 30vw;
     height: 60vh;
+    border-radius: 20px;
   }
 
   img {
     height: 80%;
+    border-radius: 20px;
   }
 
   p {
     text-align: center;
   }
+
+
   @media screen and (max-width: 780px) {
+    flex-direction: column;
+
+    .collection{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card{
+      width: 95vw;
+      height: 65vh;
+      
+      
+    }
+
+  p{
+    font-size: 26px;
+  }
   }
 
   @media screen and (max-width: 380px) {

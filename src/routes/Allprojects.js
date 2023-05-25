@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import AllProjectsContainer from "./styles/Allproject.styles";
-import Picture from '../components/Picture/Picture'
+import Picture2 from "../components/Picture2/Picture2";
 import pj1 from "../assets/pj1.png";
 import pj2 from "../assets/pj2.png";
 import pj3 from "../assets/pj3.png";
@@ -25,67 +25,68 @@ function Allprojects() {
       <Header />
       <AllProjectsContainer>
         <h1 className="title">Nossos Projetos</h1>
+
         <div className="collection">
-        <div className="card">
-          <Picture src={pj1}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj2}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj3}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj4}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj5}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj6}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj7}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj8}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj9}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj10}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj11}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj12}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj13}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj14}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
-        <div className="card">
-        <Picture src={pj15}></Picture>
-          <p>Nome do Projeto</p>
-        </div>
+          <div className="card">
+            <Picture2 src={pj1}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj2}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj3}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj4}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj5}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj6}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj7}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj8}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj9}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj10}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj11}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj12}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj13}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj14}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
+          <div className="card">
+            <Picture2 src={pj15}></Picture2>
+            <p>Nome do Projeto</p>
+          </div>
         </div>
       </AllProjectsContainer>
       <Footer />
