@@ -114,8 +114,49 @@ const ContactContainer = styled.div`
 
 
 
-  @media screen and (max-width: 780px) {
-   }
+@media screen and (max-width: 780px) {
+
+  .main{
+    flex-direction: column;
+  }
+
+  .left {
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 90vw;
+  }
+
+  .right {
+    width: 90vw;
+  }
+
+  label{
+    width: 100%;
+  }
+
+  input{
+    width: 100%;
+    height: 4vh;
+  }
+
+  textarea{
+    width: 100%;
+  }
+
+  .btn{
+    width: 40vw;
+  }
+  }
+
+  @media screen and (max-width: 380px) {
+  }
+
+  @media screen and (max-width: 330px) {
+  }
 `;
 
 export default ContactContainer;

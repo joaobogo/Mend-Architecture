@@ -29,8 +29,21 @@ const FooterContainer = styled.footer`
 
   .ig:hover {
     cursor: pointer;
+    color:rgba(85,146,203,255)
   }
+
   @media screen and (max-width: 780px) {
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      padding-left: 0;
+    }
+
+    .right{
+      width: 30%;
+      padding-bottom: 5px;
+    }
   }
 
   @media screen and (max-width: 380px) {

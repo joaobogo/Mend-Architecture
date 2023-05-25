@@ -24,7 +24,7 @@ function Allprojects() {
     <div>
       <Header />
       <AllProjectsContainer>
-        <h1>Nossos Projetos</h1>
+        <h1 className="title">Nossos Projetos</h1>
         <div className="collection">
         <div className="card">
           <Picture src={pj1}></Picture>

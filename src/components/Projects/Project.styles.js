@@ -34,9 +34,23 @@ const ProjectContainer = styled.div`
 
   
   @media screen and (max-width: 780px) {
+    flex-direction: column;
+
+    .top{
+      flex-direction: column;
+    }
+
+    .bottom{
+      font-size: 22px;
+    }
+
+
   }
 
   @media screen and (max-width: 380px) {
+  }
+
+  @media screen and (max-width: 330px) {
   }
 `;
 

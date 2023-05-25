@@ -9,7 +9,7 @@ function Aboutmends() {
     <div>
       <Header />
       <MendContainer>
-        <h1>Conheça mais sobre a MEND</h1>
+        <p className="title">Conheça mais sobre a MEND</p>
         <div className="main">
           <div className="left">
             <img src={her}></img>

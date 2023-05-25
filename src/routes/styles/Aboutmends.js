@@ -8,9 +8,10 @@ flex-direction: column;
   height: 80vh;
 
 
-h1{
+.title{
     text-align: center;
     font-family: 'Dancing Script';
+    font-size: 44px;
 }
 
 .main{

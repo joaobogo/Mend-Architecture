@@ -29,10 +29,11 @@ const HeaderContainer = styled.header`
 
   .ig:hover {
     cursor: pointer;
+    color: rgba(85,146,203,255);
   }
   @media screen and (max-width: 780px) {
     flex-direction: column;
-    height: 15vh;
+    height: 18vh;
     justify-content: center;
     align-items: center;
 
@@ -49,8 +50,12 @@ const HeaderContainer = styled.header`
     }
   }
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 385px) {
     height: 22vh;
+  }
+
+  @media screen and (max-width: 330px) {
+    height: 25vh;
   }
 `;
 

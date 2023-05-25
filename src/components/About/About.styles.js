@@ -36,13 +36,13 @@ const AboutContainer = styled.div`
 
   @media screen and (max-width: 780px) {
     flex-direction: column;
-    height: 120vh;
-    justify-content: center;
+    height: 110vh;
+    justify-content: space-evenly;
     align-items: center;
 
     .title{
         flex-wrap: wrap;
-        font-size: 26px;
+        font-size: 28px;
         text-align: center;
     }
     .left {
@@ -67,7 +67,26 @@ const AboutContainer = styled.div`
     }
   }
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 385px) {
+    height: 120vh;
+   justify-content: space-evenly;
+
+   img{
+    width: 90%;
+   }
+  }
+
+  @media screen and (max-width: 360px) {
+    height: 130vh;
+    img{
+    width: 95%;
+   }
+  
+  }
+
+  @media screen and (max-width: 330px) {
+    height: 160vh;
+  
   }
 `;
 

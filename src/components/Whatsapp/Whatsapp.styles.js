@@ -19,10 +19,10 @@ const WhatsappBtnContainer = styled.div`
     transform: scale(1.2);
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 700px) {
     .whatsappbtn {
       position: fixed;
-      right: 20px;
+      right: 35px;
       top: 90vh;
       z-index: 5;
     }

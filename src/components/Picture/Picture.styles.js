@@ -74,9 +74,22 @@ const PictureContainer = styled.div`
   }
 
   @media screen and (max-width: 780px) {
+    width: 100vw;
+
+    .picture{
+      width: 100vw;
+    }
+
+    .content{
+      width: 88%;
+      height: 40vh;
+    }
   }
 
   @media screen and (max-width: 380px) {
+  }
+
+  @media screen and (max-width: 330px) {
   }
 `;
 

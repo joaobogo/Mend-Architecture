@@ -5,10 +5,12 @@ const AllProjectsContainer = styled.div`
   flex-direction: column;
 
 
-  h1{
-    font-family: 'Roboto', sans-serif;
+ 
+    .title{
     text-align: center;
+    font-family: 'Dancing Script';
     font-size: 44px;
+
   }
   .collection {
     display: flex;

@@ -43,7 +43,9 @@ function Contact() {
   return (
     <ContactContainer id="contact">
       <p className="title" data-aos="fade-up">Fale Conosco</p>
+      
       <p className="subtitle" data-aos="fade-up">Entre em contato para que possamos ajudar você</p>
+      
       <div data-aos="fade-up" className="main">
         <div className="left">
           <div className="icons">

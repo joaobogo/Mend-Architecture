@@ -12,9 +12,10 @@ function Footer() {
 
       <div className="right">
         <a href="https://www.instagram.com/mend.arquitetura/?igshid=MzRlODBiNWFlZA%3D%3D"><FaInstagram className="ig"/></a>
-        <FaFacebook></FaFacebook>
-        <FaLinkedin></FaLinkedin>
+        <FaFacebook className="ig"></FaFacebook>
+        <FaLinkedin className="ig"></FaLinkedin>
       </div>
+      
     </FooterContainer>
   );
 }
