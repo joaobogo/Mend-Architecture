@@ -14,7 +14,7 @@ const AboutContainer = styled.div`
     width: 200px;
     border-radius: 20px;
     margin-left: 10vw;
-    box-shadow: 0 0 10px rgba(85,146,203,255);
+    box-shadow: 0 0 10px rgba(191,155,48,1);
   }
 
   .right {
@@ -22,11 +22,12 @@ const AboutContainer = styled.div`
   }
 
   .title {
-    font-family: 'Dancing Script';
+   
     font-size: 40px;
     margin: 0;
     font-weight: bold;
-    color: rgba(85, 146, 203, 255);
+    color: #ffbf00;
+    text-shadow: -4px 9px 7px rgba(191,155,48,0.43);
   }
 
   .pmain {

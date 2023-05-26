@@ -29,7 +29,7 @@ const FooterContainer = styled.footer`
 
   .ig:hover {
     cursor: pointer;
-    color:rgba(85,146,203,255)
+    color:#ffbf00
   }
 
   @media screen and (max-width: 780px) {

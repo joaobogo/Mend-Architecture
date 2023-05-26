@@ -17,13 +17,13 @@ const ProjectContainer = styled.div`
     width: 100vw;
     font-weight: bold;
     height: 10vh;
+    background: rgb(191, 155, 48);
     background: linear-gradient(
       90deg,
-      rgba(102, 156, 205, 1) 0%,
-      rgba(173, 214, 239, 1) 0%,
+      rgba(191, 155, 48, 1) 0%,
+      rgba(255, 191, 0, 1) 0%,
       rgba(255, 255, 255, 1) 100%
     );
-   
   }
 
   a {

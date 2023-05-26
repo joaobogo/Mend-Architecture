@@ -23,7 +23,7 @@ const WhatsappBtnContainer = styled.div`
     .whatsappbtn {
       position: fixed;
       right: 35px;
-      top: 90vh;
+      top: 80vh;
       z-index: 5;
     }
   }

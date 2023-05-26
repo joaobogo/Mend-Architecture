@@ -4,13 +4,11 @@ const AllProjectsContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-
- 
-    .title{
+  .title {
     text-align: center;
-    font-family: 'Dancing Script';
     font-size: 44px;
-
+    color: #ffbf00;
+    text-shadow: -4px 9px 7px rgba(191,155,48,0.43);
   }
   .collection {
     display: flex;
@@ -37,25 +35,22 @@ const AllProjectsContainer = styled.div`
     text-align: center;
   }
 
-
   @media screen and (max-width: 780px) {
     flex-direction: column;
 
-    .collection{
+    .collection {
       flex-direction: column;
       align-items: center;
     }
 
-    .card{
+    .card {
       width: 95vw;
       height: 65vh;
-      
-      
     }
 
-  p{
-    font-size: 26px;
-  }
+    p {
+      font-size: 26px;
+    }
   }
 
   @media screen and (max-width: 380px) {
