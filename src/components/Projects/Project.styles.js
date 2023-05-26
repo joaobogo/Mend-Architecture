@@ -23,7 +23,7 @@ const ProjectContainer = styled.div`
       rgba(173, 214, 239, 1) 0%,
       rgba(255, 255, 255, 1) 100%
     );
-    z-index: -99;
+   
   }
 
   a {
