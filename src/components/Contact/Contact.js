@@ -6,6 +6,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Contact() {
+
   const [contact, setContact] = useState({
     name: "",
     email: "",
@@ -31,7 +32,7 @@ function Contact() {
 
     const data = {
       service_id: "service_ujkdmj1",
-      template_id: "template_0wnpiak",
+      template_id: "template_q75mzv7",
       user_id: process.env.REACT_APP_USER_ID,
       template_params: { from_name, message, reply_to, subject },
     };

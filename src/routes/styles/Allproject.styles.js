@@ -5,11 +5,13 @@ const AllProjectsContainer = styled.div`
   flex-direction: column;
 
   .title {
-    text-align: center;
     font-size: 44px;
-    color: #ffbf00;
-    text-shadow: -4px 9px 7px rgba(191,155,48,0.43);
+    color: black;
+    text-shadow: 0 0 10px rgb(0,0,0,.4);
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
   }
+  
   .collection {
     display: flex;
     justify-content: space-evenly;

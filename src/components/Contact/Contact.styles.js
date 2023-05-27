@@ -7,9 +7,10 @@ const ContactContainer = styled.div`
 
 .title{
   font-size: 44px;
-    color: #ffbf00;
-    text-shadow: -4px 9px 7px rgba(191,155,48,0.43);
+    color: black;
+    text-shadow: 0 0 10px rgb(0,0,0,.4);
     text-align: center;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .subtitle{
@@ -31,7 +32,7 @@ const ContactContainer = styled.div`
   }
 
   .icones{
-    color: #ffbf00;
+    color: black;
   }
 
   .btn {
@@ -39,18 +40,18 @@ const ContactContainer = styled.div`
     text-align: center;
     text-decoration: none;
     color: black;
-    border: solid #ffbf00 1px;
+    border: solid black 1px;
     border-radius: 20px;
     background-color: white;
     width: 15vw;
     height: 5vh;
     font-size: 16px;
-    box-shadow: -4px 9px 7px rgba(191,155,48,0.43);
+    box-shadow: 0 0 10px rgb(0,0,0,.6);
   }
 
   .btn:hover {
     cursor: pointer;
-    box-shadow: -4px 9px 7px rgba(191,155,48,1);
+    box-shadow: 0 0 10px rgb(0,0,0,.6);
   }
 
   .left {
@@ -86,16 +87,16 @@ const ContactContainer = styled.div`
     width: 35vw;
     border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);
-    border: solid 1px #ffbf00;
-    box-shadow: -4px 9px 7px rgba(191,155,48,0.43);
+    border: solid black 1px;
+    box-shadow: 0 0 10px rgb(0,0,0,.6);
   }
 
   textarea {
     width: 35vw;
     border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);
-    border: solid 1px #ffbf00;
-    box-shadow: -4px 9px 7px rgba(191,155,48,0.43);;
+    border: solid black 1px;
+    box-shadow: 0 0 10px rgb(0,0,0,.6);;
 
   }
 
